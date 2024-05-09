@@ -107,6 +107,7 @@ Webhosting static contents (e.g. using AWS S3),存储了包含HTML, CSS, JavaScr
 - 用dig, ping都可以获得网站的ip地址
 - Resolve DNS (e.g. using AWS Route 53) 
   
+
 第二个问号为CDN(Content Delivery Networks)
 - 将网站的静态资源，提前cache到距离用户最近的服务器，这样会使latency大幅降低
 - 服务公司有Akamai，最近比较火的有Fastly
@@ -219,20 +220,24 @@ Azure search，是一个额外的component，因为跟我们DevOps没有太大�
 Step 1. Plan
 - Poject的plan和breakdown，可能用到Jira, Trello, Portfolio(RoadMap)  
   
+
 Step 2. Code
 - IDE: IJ, VS Code etc...
 - Code Quality: Pair Programming, Code Review, ShellCheck, PEP8 etc...
 - Version Control: Bitbucket, Git
   
+
 Step 3/4. Build and Test  
 Step 5/6. Release and Deploy
 - 可以完成自动化build和部署，如Bitbucket pipeline
   
+
 Step 7. Operate
 - 上线后，要做到Incident Management
 - 尽量避免IT Support Ticket发生，因为IT Support Ticket如果发生 ，证明customer 比你先发现了问题
 - 也要做好incident early detection 
-   
+  
+
 Step 8. Monitoring
 - What to monitor? SLIs/SLO/SLA
 - Golden Signals
@@ -253,3 +258,5 @@ DevOps要尽可能的做automation
 Set up Nginx Load Balancer using docker  
 Reference:  
 https://levelup.gitconnected.com/nginx-load-balancing-and-using-with-docker-7e16c49f5d9
+
+aaaaaaaaaa
